@@ -1,0 +1,10 @@
+.example-header-image {
+  max-width: 4% !important;
+  margin-right: 1% !important;
+}
+
+.mat-icon {
+  height: 35px !important;
+  width: 35px !important;
+  font-size: 35px !important;
+}
