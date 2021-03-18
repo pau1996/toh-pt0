@@ -30,9 +30,6 @@ export class EstTotComponent implements OnInit {
       this.dataMasc = this.comarcas.map((item) => item.pobMasc);
       this.dataFem = this.comarcas.map((item) => item.pobFem);
       this.dataAll = this.comarcas.map((item) => item.pobTotal);
-      console.log(this.dataMasc);
-      console.log(this.dataFem);
-      console.log(this.dataAll);
       this.chart = new Chart(this.chartRef.nativeElement, {
         type: 'bar',
         data: {
